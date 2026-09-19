@@ -15,11 +15,20 @@ An end-to-end data analytics project evaluating sales performance, profitability
 
 ---
 
+## ❓ Core Analytical Questions
+
+1. **Sub-Category Profitability Divergence:** Which product sub-categories generate high sales revenue but operate at a net financial loss (e.g., **Tables** losing **($17,725.48)**), and which ones produce the highest profit margins (e.g., **Labels** at **44.42%**)?
+2. **Category Performance Comparison:** How do overall sales revenue and profit margins compare across the three primary product categories (**Technology**, **Office Supplies**, and **Furniture**)?
+3. **Fulfillment & Shipping Efficiency:** How does shipping delay duration (`Shipping_Delay_Days`) affect order volume across different fulfillment priority tiers (`Express`, `Standard`, `Delayed`)?
+
+---
+
 ## 💡 Key Analytical Insights (Excel Baseline Phase)
 
 * **Revenue Leader:** **Technology** generates the highest total revenue at **$836,154.03** with a strong **17.40%** overall profit margin.
 * **Primary Loss Driver:** **Tables** represents the largest financial drag, losing **($17,725.48)** on **$206,965.53** in sales (**-8.56% margin**), followed by Bookcases (-$3,472.56).
 * **Top Profitability Margin:** **Labels** (**44.42%**) and **Paper** (**43.39%**) yield the highest net return per dollar sold.
+
 ---
 
 ## 🛠️ Data Engineering & Feature Logic (Excel)
